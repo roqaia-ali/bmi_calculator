@@ -8,10 +8,10 @@ class ResultScreen extends StatelessWidget {
       if(result<18.5){
         return 'underwieghted';
       }
-    if (result < 25.5) {
+    else if (result < 25.5) {
       return 'normal';
     }
-    if (result < 30.5) {
+    else if (result < 30.5) {
       return 'overwieghted';
     }
      else {
